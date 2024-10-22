@@ -4,7 +4,8 @@
   "description": "",
   "main": "dist/server.js",
   "scripts": {
-    "run": "npx nodemon src/server.ts --exec ts-node"
+    "run": "npx nodemon src/server.ts --exec ts-node",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "",
