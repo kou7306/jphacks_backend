@@ -14,7 +14,7 @@ env:
   PORT: 8080
   GCP_PROJECT_ID: ${{ secrets.PROJECT_ID }}
   GCP_REGION: us-west1
-  IMAGE: gcr.io/${{ secrets.PROJECT_ID }}/jphacks-backend:${{ github.sha }}
+  IMAGE: asia-northeast1-docker.pkg.dev/${{ secrets.PROJECT_ID }}/jphacks-backend:${{ github.sha }}
   DATABASE_URL: ${{ secrets.DATABASE_URL }}
   DIRECT_URL: ${{ secrets.DIRECT_URL }}
 
