@@ -10,6 +10,8 @@ COPY package*.json ./
 # 依存関係をインストール
 RUN npm install
 
+EXPOSE 8080
+
 # ソースコードをコピー
 COPY . .
 
